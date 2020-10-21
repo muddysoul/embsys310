@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspace>
     <project>
-        <path>$WS_DIR$\Hello_World.ewp</path>
+        <path>$WS_DIR$\..\assignment01\EWARM\Hello_World.ewp</path>
     </project>
     <project>
-        <path>$WS_DIR$\..\..\assignment02\practice_project.ewp</path>
+        <path>$WS_DIR$\practice_project.ewp</path>
     </project>
     <batchBuild />
 </workspace>
