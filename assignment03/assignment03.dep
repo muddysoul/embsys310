@@ -1,52 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>1494580085</fileChecksum>
+    <fileChecksum>2004534499</fileChecksum>
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
             <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
-            <file>$PROJ_DIR$\Debug\List\practice_project.map</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
             <file>$PROJ_DIR$\main.c</file>
             <file>$TOOLKIT_DIR$\config\linker\ST\stm32l475xG.icf</file>
-            <file>$PROJ_DIR$\Debug\Exe\practice_project.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\practice_project.pbd</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$PROJ_DIR$\Debug\List\assignment03.map</file>
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\assignment03.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.__cstat.et</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.xcl</file>
+            <file>$PROJ_DIR$\Debug\Obj\assignment03.pbd</file>
         </outputs>
         <file>
             <name>$PROJ_DIR$\main.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 1</file>
+                    <file> 0</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 2</file>
+                    <file> 10</file>
                 </tool>
                 <tool>
                     <name>__cstat</name>
-                    <file> 0</file>
+                    <file> 9</file>
                 </tool>
             </outputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\Debug\Exe\practice_project.out</name>
+            <name>$PROJ_DIR$\Debug\Exe\assignment03.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 3</file>
+                    <file> 6</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 8 1 6 11 4 5</file>
+                    <file> 2 0 3 7 4 5</file>
                 </tool>
             </inputs>
         </file>
@@ -55,7 +55,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 3 9</file>
+                    <file> 8 6</file>
                 </tool>
             </outputs>
         </file>

@@ -11,29 +11,6 @@
         <LimitSize>0</LimitSize>
         <ByteLimit>50</ByteLimit>
     </Stack>
-    <Trace1>
-        <Enabled>0</Enabled>
-        <ShowSource>1</ShowSource>
-    </Trace1>
-    <DebugChecksum>
-        <Checksum>1296865046</Checksum>
-    </DebugChecksum>
-    <Disassembly>
-        <InstrCount>0</InstrCount>
-        <MixedMode>1</MixedMode>
-    </Disassembly>
-    <CodeCoverage>
-        <Enabled>0</Enabled>
-        <ShowSource>0</ShowSource>
-        <HideCovered>0</HideCovered>
-    </CodeCoverage>
-    <Exceptions>
-        <StopOnUncaught>_ 0</StopOnUncaught>
-        <StopOnThrow>_ 0</StopOnThrow>
-    </Exceptions>
-    <CallStack>
-        <ShowArgs>0</ShowArgs>
-    </CallStack>
     <Interrupts>
         <Enabled>1</Enabled>
     </Interrupts>
@@ -44,6 +21,10 @@
         <TypeViol>0</TypeViol>
         <Stop>1</Stop>
     </MemConfig>
+    <Trace1>
+        <Enabled>0</Enabled>
+        <ShowSource>1</ShowSource>
+    </Trace1>
     <Simulator>
         <Freq>10000000</Freq>
         <FreqHi>0</FreqHi>
@@ -53,10 +34,17 @@
         <stlinkserialNo>43225327</stlinkserialNo>
         <stlinkfoundProbes />
         <stlinkResetStyle>0</stlinkResetStyle>
-        <stlinkResetStrategy>0</stlinkResetStrategy>
+        <stlinkResetStrategy>2</stlinkResetStrategy>
         <CStepIntDis>_ 0</CStepIntDis>
         <LeaveTargetRunning>_ 0</LeaveTargetRunning>
     </StLinkDriver>
+    <DebugChecksum>
+        <Checksum>1500746913</Checksum>
+    </DebugChecksum>
+    <Exceptions>
+        <StopOnUncaught>_ 0</StopOnUncaught>
+        <StopOnThrow>_ 0</StopOnThrow>
+    </Exceptions>
     <Trace2>
         <Enabled>0</Enabled>
         <ShowSource>0</ShowSource>
@@ -102,6 +90,15 @@
         <ShowTimeSum>1</ShowTimeSum>
         <SumSortOrder>0</SumSortOrder>
     </EventLog>
+    <Disassembly>
+        <InstrCount>0</InstrCount>
+        <MixedMode>1</MixedMode>
+    </Disassembly>
+    <CodeCoverage>
+        <Enabled>0</Enabled>
+        <ShowSource>0</ShowSource>
+        <HideCovered>0</HideCovered>
+    </CodeCoverage>
     <TermIOLog>
         <LoggingEnabled>_ 0</LoggingEnabled>
         <LogFile>_ ""</LogFile>
@@ -111,6 +108,9 @@
         <LogFile>_ ""</LogFile>
         <Category>_ 0</Category>
     </LogFile>
+    <CallStack>
+        <ShowArgs>0</ShowArgs>
+    </CallStack>
     <DriverProfiling>
         <Enabled>0</Enabled>
         <Mode>3</Mode>
@@ -146,8 +146,7 @@
         <mode>0</mode>
     </DisassembleMode>
     <Breakpoints2>
-        <Bp0>_ 1 "EMUL_CODE" "{$PROJ_DIR$\main.c}.10.3" 0 0 1 "" 0 "" 0</Bp0>
-        <Count>1</Count>
+        <Count>0</Count>
     </Breakpoints2>
     <Aliases>
         <Count>0</Count>
