@@ -1,0 +1,184 @@
+[
+  {
+    "ID": "c:main.c@17@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@46@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@79@macro@RCC_AHB2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB2ENR",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "RCC_AHB2ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@138@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@198@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dash",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void dash(void)",
+    "location": {
+      "column": "6",
+      "line": "10",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "dash",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dot",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void dot(void)",
+    "location": {
+      "column": "6",
+      "line": "11",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "dot",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@space",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void space(void)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "space",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "5",
+      "line": "14",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "16",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dash",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void dash(void)",
+    "location": {
+      "column": "6",
+      "line": "74",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "dash",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@dot",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void dot(void)",
+    "location": {
+      "column": "6",
+      "line": "85",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "dot",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@space",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void space(void)",
+    "location": {
+      "column": "6",
+      "line": "96",
+      "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
+    },
+    "name": "space",
+    "origin": "project_file",
+    "scope": null
+  }
+]

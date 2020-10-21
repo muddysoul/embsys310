@@ -10,6 +10,9 @@
         <path>$WS_DIR$\..\assignment01\EWARM\Hello_World.ewp</path>
     </project>
     <project>
+        <path>$WS_DIR$\..\assignment03\morse\morse.ewp</path>
+    </project>
+    <project>
         <path>$WS_DIR$\practice_project.ewp</path>
     </project>
     <batchBuild />
