@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\maris\embsys310\assignment03\settings\assignment03.Debug.general.xcl" --backend -f "C:\Users\maris\embsys310\assignment03\settings\assignment03.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\maris\embsys310\assignment03\blink\settings\blink.Debug.general.xcl" --backend -f "C:\Users\maris\embsys310\assignment03\blink\settings\blink.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\maris\embsys310\assignment03\settings\assignment03.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\maris\embsys310\assignment03\settings\assignment03.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\maris\embsys310\assignment03\blink\settings\blink.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\maris\embsys310\assignment03\blink\settings\blink.Debug.driver.xcl" 
 
 @echo off 
 :end

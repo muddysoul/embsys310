@@ -63,11 +63,6 @@ void main()
         space();
         space();
         space();
-        
-        //counter = 0;
-        // Delay
-        //while (counter < 100000) counter++;          
-        //GPIOA_ODR ^= 0x0020;        // Toggle LED1 (PA5) with XOR       
     }
 }
 

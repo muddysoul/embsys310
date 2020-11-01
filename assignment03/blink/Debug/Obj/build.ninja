@@ -1,4 +1,4 @@
-#Generating source browse information for project assignment03
+#Generating source browse information for project blink
 
 
 #Abbreviations
@@ -21,7 +21,7 @@ rule browsedata
 
 #Build steps
 build main.pbi : index main.xcl
-build assignment03.pbd : link main.pbi
-build assignment03.pbw : browsedata assignment03.pbd
+build blink.pbd : link main.pbi
+build blink.pbw : browsedata blink.pbd
 
 

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\blink.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\module03demo\blinky.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\assignment01\EWARM\Hello_World.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\morse\morse.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\assignment02\practice_project.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

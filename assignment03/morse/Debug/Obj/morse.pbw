@@ -146,7 +146,7 @@
     "display": "void dash(void)",
     "location": {
       "column": "6",
-      "line": "74",
+      "line": "69",
       "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
     },
     "name": "dash",
@@ -160,7 +160,7 @@
     "display": "void dot(void)",
     "location": {
       "column": "6",
-      "line": "85",
+      "line": "80",
       "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
     },
     "name": "dot",
@@ -174,7 +174,7 @@
     "display": "void space(void)",
     "location": {
       "column": "6",
-      "line": "96",
+      "line": "91",
       "path": "C:\\Users\\maris\\embsys310\\assignment03\\morse\\main.c"
     },
     "name": "space",
