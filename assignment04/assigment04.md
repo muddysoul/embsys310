@@ -25,3 +25,5 @@ a. The following is the list of requirements:
     - Provide a function that returns 1 if stack is full.  
 b. Provide a list of the test cases and their implementation inside of main.c  
 c. Separate the stack code from the rest of the test code (create stack.h & stack.c)  
+
+### I can't figure out why my code isn't working - it steps into the if at line 33 in stack.c, but it doesn't change the address for top and I've checked my syntax a million times - it changes the address if I specifically say step in not step over, but otherwise it doesn't set it and then it can never get the chars because it didn't set them. I would spend more time on this but I have two more homework assignments to attempt so I don't fail and I've spent a lot of time staring at the same thing it hurts my brain.
