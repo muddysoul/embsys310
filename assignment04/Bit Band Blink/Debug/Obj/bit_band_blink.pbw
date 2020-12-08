@@ -1,0 +1,142 @@
+[
+  {
+    "ID": "c:main.c@17@macro@BIT_BAND_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BIT_BAND_BASE",
+    "location": {
+      "column": "9",
+      "line": "3",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "BIT_BAND_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@51@macro@BYTE_OFFSET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "BYTE_OFFSET",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "BYTE_OFFSET",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@80@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@109@macro@GPIOA_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_BASE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "GPIOA_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@142@macro@RCC_AHB2ENR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHB2ENR",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "RCC_AHB2ENR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@201@macro@RCC_GPIOA_BB",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_GPIOA_BB",
+    "location": {
+      "column": "9",
+      "line": "9",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "RCC_GPIOA_BB",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@282@macro@GPIOA_MODER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_MODER",
+    "location": {
+      "column": "9",
+      "line": "10",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "GPIOA_MODER",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@342@macro@GPIOA_ODR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOA_ODR",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "GPIOA_ODR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@counter",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "counter",
+    "location": {
+      "column": "5",
+      "line": "13",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "counter",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "int main(void)",
+    "location": {
+      "column": "5",
+      "line": "15",
+      "path": "C:\\Users\\maris\\embsys310\\assignment04\\Bit Band Blink\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  }
+]
