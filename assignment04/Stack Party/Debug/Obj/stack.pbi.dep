@@ -1,2 +1,2 @@
-stack.pbi: C:\Users\maris\embsys310\assignment04\Stack\ Party\stack.h \
-  C:\Users\maris\embsys310\assignment04\Stack\ Party\stack.c
+stack.pbi: C:\Users\maris\embsys310\assignment04\Stack\ Party\stack.c \
+  C:\Users\maris\embsys310\assignment04\Stack\ Party/stack.h
