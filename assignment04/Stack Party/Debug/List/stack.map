@@ -1,0 +1,231 @@
+###############################################################################
+#
+# IAR ELF Linker V8.40.1.212/W32 for ARM                  07/Dec/2020  20:39:32
+# Copyright 2007-2019 IAR Systems AB.
+#
+#    Output file  =
+#        C:\Users\maris\embsys310\assignment04\Stack Party\Debug\Exe\stack.out
+#    Map file     =
+#        C:\Users\maris\embsys310\assignment04\Stack Party\Debug\List\stack.map
+#    Command line =
+#        -f C:\Users\maris\AppData\Local\Temp\EWFB78.tmp
+#        ("C:\Users\maris\embsys310\assignment04\Stack Party\Debug\Obj\main.o"
+#        "C:\Users\maris\embsys310\assignment04\Stack Party\Debug\Obj\stack.o"
+#        --no_out_extension -o "C:\Users\maris\embsys310\assignment04\Stack
+#        Party\Debug\Exe\stack.out" --redirect _Printf=_PrintfFullNoMb
+#        --redirect _Scanf=_ScanfFullNoMb --map
+#        "C:\Users\maris\embsys310\assignment04\Stack
+#        Party\Debug\List\stack.map" --config "C:\Program Files (x86)\IAR
+#        Systems\Embedded Workbench 8.3\arm\config\linker\ST\stm32l475xG.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because some modules are built with
+size limitations (and not runtime checking), and --advanced_heap
+was not specified.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x0] |
+                [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 8K, alignment = 8 { };
+define block PROC_STACK with size = 0, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P3":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block PROC_STACK, block HEAP };
+
+No sections matched the following patterns:
+
+  ro section application_specific_ro  in "P2|P5"
+  rw section application_specific_rw  in "P2|P5"
+  section .textrw                     in "P4"
+
+
+  Section          Kind         Address    Size  Object
+  -------          ----         -------    ----  ------
+"A0":                                      0x40
+  .intvec          ro code   0x800'0000    0x40  vector_table_M.o [4]
+                           - 0x800'0040    0x40
+
+"P1":                                     0x7e0
+  .text            ro code   0x800'0040   0x4f8  main.o [1]
+  .text            ro code   0x800'0538    0x74  stack.o [1]
+  .text            ro code   0x800'05ac    0x24  ABIassert.o [5]
+  .text            ro code   0x800'05d0     0x6  abort.o [2]
+  .text            ro code   0x800'05d6    0x3a  zero_init3.o [4]
+  .text            ro code   0x800'0610    0x14  exit.o [5]
+  .rodata          const     0x800'0624    0x3c  main.o [1]
+  .text            ro code   0x800'0660    0x28  data_init.o [4]
+  .text            ro code   0x800'0688    0x22  fpinit_M.o [3]
+  .iar.init_table  const     0x800'06ac    0x10  - Linker created -
+  .text            ro code   0x800'06bc     0x2  vector_table_M.o [4]
+  .text            ro code   0x800'06c0    0x1e  cmain.o [4]
+  .text            ro code   0x800'06de     0x4  low_level_init.o [2]
+  .text            ro code   0x800'06e2     0x4  exit.o [2]
+  .text            ro code   0x800'06e8     0xa  cexit.o [4]
+  .rodata          const     0x800'06f4    0x1c  main.o [1]
+  .rodata          const     0x800'0710    0x14  main.o [1]
+  .rodata          const     0x800'0724    0x14  main.o [1]
+  .rodata          const     0x800'0738    0x14  main.o [1]
+  .rodata          const     0x800'074c    0x14  main.o [1]
+  .rodata          const     0x800'0760    0x14  main.o [1]
+  .rodata          const     0x800'0774    0x10  main.o [1]
+  .rodata          const     0x800'0784    0x10  main.o [1]
+  .rodata          const     0x800'0794    0x10  main.o [1]
+  .rodata          const     0x800'07a4    0x10  main.o [1]
+  .rodata          const     0x800'07b4    0x10  main.o [1]
+  .rodata          const     0x800'07c4    0x10  main.o [1]
+  .rodata          const     0x800'07d4    0x10  main.o [1]
+  .rodata          const     0x800'07e4    0x10  main.o [1]
+  .rodata          const     0x800'07f4    0x10  main.o [1]
+  .rodata          const     0x800'0804    0x10  main.o [1]
+  .text            ro code   0x800'0814     0xc  cstartup_M.o [4]
+  .rodata          const     0x800'0820     0x0  zero_init3.o [4]
+                           - 0x800'0820   0x7e0
+
+"P3", part 1 of 2:                          0x8
+  .bss             zero     0x2000'0000     0x4  stack.o [1]
+  .bss             zero     0x2000'0004     0x4  stack.o [1]
+                          - 0x2000'0008     0x8
+
+"P3", part 2 of 2:                       0x2000
+  CSTACK                    0x2000'0008  0x2000  <Block>
+    CSTACK         uninit   0x2000'0008  0x2000  <Block tail>
+                          - 0x2000'2008  0x2000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+          0x0          0x0       0x1
+   0x800'0820   0x80f'ffff  0xf'f7e0
+  0x2000'2008  0x2001'7fff  0x1'5ff8
+
+
+*******************************************************************************
+*** INIT TABLE
+***
+
+          Address      Size
+          -------      ----
+Zero (__iar_zero_init3)
+    1 destination range, total size 0x8:
+          0x2000'0000   0x8
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  ro data  rw data
+    ------            -------  -------  -------
+command line/config:
+    -------------------------------------------
+    Total:
+
+C:\Users\maris\embsys310\assignment04\Stack Party\Debug\Obj: [1]
+    main.o              1'272      348
+    stack.o               116                 8
+    -------------------------------------------
+    Total:              1'388      348        8
+
+dl7M_tln.a: [2]
+    abort.o                 6
+    exit.o                  4
+    low_level_init.o        4
+    -------------------------------------------
+    Total:                 14
+
+m7M_tls.a: [3]
+    fpinit_M.o             34
+    -------------------------------------------
+    Total:                 34
+
+rt7M_tl.a: [4]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           12
+    data_init.o            40
+    vector_table_M.o       66
+    zero_init3.o           58
+    -------------------------------------------
+    Total:                216
+
+shb_l.a: [5]
+    ABIassert.o            36
+    exit.o                 20
+    -------------------------------------------
+    Total:                 56
+
+    Gaps                    4        4
+    Linker created                  16    8'192
+-----------------------------------------------
+    Grand Total:        1'712      368    8'200
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base    0x800'06ac          --   Gb  - Linker created -
+.iar.init_table$$Limit   0x800'06bc          --   Gb  - Linker created -
+?main                    0x800'06c1         Code  Gb  cmain.o [4]
+CSTACK$$Base            0x2000'0008          --   Gb  - Linker created -
+CSTACK$$Limit           0x2000'2008          --   Gb  - Linker created -
+Region$$Table$$Base      0x800'06ac          --   Gb  - Linker created -
+Region$$Table$$Limit     0x800'06bc          --   Gb  - Linker created -
+StackStore              0x2000'0000    0x4  Data  Gb  stack.o [1]
+__aeabi_assert           0x800'05ad   0x24  Code  Gb  ABIassert.o [5]
+__cmain                  0x800'06c1         Code  Gb  cmain.o [4]
+__exit                   0x800'0611   0x14  Code  Gb  exit.o [5]
+__iar_data_init3         0x800'0661   0x28  Code  Gb  data_init.o [4]
+__iar_init_vfp           0x800'0689         Code  Gb  fpinit_M.o [3]
+__iar_program_start      0x800'0815         Code  Gb  cstartup_M.o [4]
+__iar_zero_init3         0x800'05d7   0x3a  Code  Gb  zero_init3.o [4]
+__low_level_init         0x800'06df    0x4  Code  Gb  low_level_init.o [2]
+__vector_table           0x800'0000         Data  Gb  vector_table_M.o [4]
+_call_main               0x800'06cd         Code  Gb  cmain.o [4]
+_exit                    0x800'06e9         Code  Gb  cexit.o [4]
+_main                    0x800'06db         Code  Gb  cmain.o [4]
+abort                    0x800'05d1    0x6  Code  Gb  abort.o [2]
+exit                     0x800'06e3    0x4  Code  Gb  exit.o [2]
+main                     0x800'0041  0x4f8  Code  Gb  main.o [1]
+stack_get                0x800'057f   0x26  Code  Gb  stack.o [1]
+stack_init               0x800'0539   0x18  Code  Gb  stack.o [1]
+stack_put                0x800'0551   0x2e  Code  Gb  stack.o [1]
+top                     0x2000'0004    0x4  Data  Gb  stack.o [1]
+
+
+[1] = C:\Users\maris\embsys310\assignment04\Stack Party\Debug\Obj
+[2] = dl7M_tln.a
+[3] = m7M_tls.a
+[4] = rt7M_tl.a
+[5] = shb_l.a
+
+  1'712 bytes of readonly  code memory
+    368 bytes of readonly  data memory
+  8'200 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
