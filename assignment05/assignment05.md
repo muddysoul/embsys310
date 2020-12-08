@@ -5,7 +5,7 @@ a. Explain what the “main” function does in order to setup the input argumen
 b. What are the values in R0 & R1 when swap_pointer() is called?  
 The values are the memory locations of the input arguments: R0 is 0x200003F4 and R1 is 0x200003F0.
 c. Share a screen shot of the local variables inside of “main” after the function swap_pointer() returns showing the values of the pointers and what they are pointing to (similar to the picture below). 
-I really don't know why my pointer values aren't showing up in the locals - when I step from line 18 to 20, I see a value in xPtr and <unavailable> in yPtr bc it hasn't been created yet, and then both go to <unavailable>. So here's a before and after for x and y:  
+I really don't know why my pointer values aren't showing up in the locals - when I step from line 18 to 20, I see a value in xPtr and \<unavailable\> in yPtr bc it hasn't been created yet, and then both go to \<unavailable\>. So here's a before and after for x and y:  
 ![alt text](https://github.com/muddysoul/embsys310/blob/main/assignment05/Images/before_swap.png "before swap")
 ![alt text](https://github.com/muddysoul/embsys310/blob/main/assignment05/Images/after_swap.png "after swap")
 
