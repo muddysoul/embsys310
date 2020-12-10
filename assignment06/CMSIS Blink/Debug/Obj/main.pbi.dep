@@ -1,0 +1,9 @@
+main.pbi: C:\Users\maris\embsys310\assignment06\CMSIS\ Blink\stm32l475xx.h \
+  C:\Users\maris\embsys310\assignment06\CMSIS\ Blink\system_stm32l4xx.h \
+  C:\Users\maris\embsys310\assignment06\CMSIS\ Blink\delay.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Product.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\yvals.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\ycheck.h \
+  C:\Program\ Files\ (x86)\IAR\ Systems\Embedded\ Workbench\ 8.3\arm\inc\c\stdint.h \
+  C:\Users\maris\embsys310\assignment06\CMSIS\ Blink\main.c

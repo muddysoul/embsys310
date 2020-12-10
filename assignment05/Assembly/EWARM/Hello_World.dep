@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project>
     <fileVersion>4</fileVersion>
-    <fileChecksum>1964072625</fileChecksum>
+    <fileChecksum>2836664494</fileChecksum>
     <configuration>
         <name>Hello_World</name>
         <outputs>
@@ -47,7 +47,9 @@
             <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+            <file>$PROJ_DIR$\Hello_World\Obj\swapCharsAsm.o</file>
             <file>$PROJ_DIR$\Hello_World\List\Hello_World.map</file>
+            <file>$PROJ_DIR$\..\Src\swapCharsAsm.s</file>
             <file>$PROJ_DIR$\Hello_World\Obj\stm32l4xx_hal_tim_ex.o</file>
             <file>$PROJ_DIR$\Hello_World\Obj\stm32l4xx_hal_cortex.o</file>
             <file>$PROJ_DIR$\Hello_World\Obj\stm32l4xx_hal_dma.xcl</file>
@@ -139,7 +141,7 @@
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 77 42</file>
+                    <file> 79 43</file>
                 </tool>
             </outputs>
         </file>
@@ -148,17 +150,17 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 70</file>
+                    <file> 72</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 79</file>
+                    <file> 81</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 112 124 123 114 127 119 126 115 121 116 118 125 117 120 122 110 111 109 100 93 94 98 101 96 102 97 99 92 87 88 89 85 90 91 86 103 104 106 105 113 107</file>
+                    <file> 114 126 125 116 129 121 128 117 123 118 120 127 119 122 124 112 113 111 102 95 96 100 103 98 104 99 101 94 89 90 91 87 92 93 88 105 106 108 107 115 109</file>
                 </tool>
             </inputs>
         </file>
@@ -167,7 +169,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 54</file>
+                    <file> 56</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -180,7 +182,7 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 61</file>
+                    <file> 63</file>
                 </tool>
             </outputs>
         </file>
@@ -198,7 +200,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 58</file>
+                    <file> 60</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -211,11 +213,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 72</file>
+                    <file> 74</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 48</file>
+                    <file> 50</file>
                 </tool>
             </outputs>
         </file>
@@ -224,11 +226,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 66</file>
+                    <file> 68</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 83</file>
+                    <file> 85</file>
                 </tool>
             </outputs>
         </file>
@@ -237,11 +239,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 80</file>
+                    <file> 82</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 74</file>
+                    <file> 76</file>
                 </tool>
             </outputs>
         </file>
@@ -250,11 +252,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 53</file>
+                    <file> 55</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 57</file>
+                    <file> 59</file>
                 </tool>
             </outputs>
         </file>
@@ -263,7 +265,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 68</file>
+                    <file> 70</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -276,11 +278,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 46</file>
+                    <file> 48</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 59</file>
+                    <file> 61</file>
                 </tool>
             </outputs>
         </file>
@@ -289,11 +291,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 84</file>
+                    <file> 86</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 64</file>
+                    <file> 66</file>
                 </tool>
             </outputs>
         </file>
@@ -302,7 +304,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 43</file>
+                    <file> 45</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -315,11 +317,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 44</file>
+                    <file> 46</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 50</file>
+                    <file> 52</file>
                 </tool>
             </outputs>
         </file>
@@ -328,7 +330,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 73</file>
+                    <file> 75</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -341,11 +343,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 76</file>
+                    <file> 78</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 69</file>
+                    <file> 71</file>
                 </tool>
             </outputs>
         </file>
@@ -354,7 +356,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 75</file>
+                    <file> 77</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -367,11 +369,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 52</file>
+                    <file> 54</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 65</file>
+                    <file> 67</file>
                 </tool>
             </outputs>
         </file>
@@ -384,7 +386,7 @@
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 55</file>
+                    <file> 57</file>
                 </tool>
             </outputs>
         </file>
@@ -393,11 +395,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 51</file>
+                    <file> 53</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 60</file>
+                    <file> 62</file>
                 </tool>
             </outputs>
         </file>
@@ -406,11 +408,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 78</file>
+                    <file> 80</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 45</file>
+                    <file> 47</file>
                 </tool>
             </outputs>
         </file>
@@ -419,11 +421,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 63</file>
+                    <file> 65</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 82</file>
+                    <file> 84</file>
                 </tool>
             </outputs>
         </file>
@@ -445,11 +447,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 56</file>
+                    <file> 58</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 49</file>
+                    <file> 51</file>
                 </tool>
             </outputs>
         </file>
@@ -458,11 +460,11 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 47</file>
+                    <file> 49</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
-                    <file> 67</file>
+                    <file> 69</file>
                 </tool>
             </outputs>
         </file>
@@ -471,7 +473,7 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 62</file>
+                    <file> 64</file>
                 </tool>
                 <tool>
                     <name>BICOMP</name>
@@ -480,21 +482,30 @@
             </outputs>
         </file>
         <file>
+            <name>$PROJ_DIR$\..\Src\swapCharsAsm.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
             <name>$PROJ_DIR$\Hello_World\Exe\Hello_World.out</name>
             <outputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 42</file>
+                    <file> 43</file>
                 </tool>
                 <tool>
                     <name>OBJCOPY</name>
-                    <file> 81</file>
+                    <file> 83</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ILINK</name>
-                    <file> 37 95 70 54 20 61 75 44 78 73 68 52 47 46 63 84 62 58 80 24 53 56 10 43 51 76 72 66 38 39 40 41</file>
+                    <file> 37 97 72 56 20 63 77 46 80 75 70 54 49 48 65 86 64 60 82 24 55 58 10 45 53 78 74 68 38 39 40 41</file>
                 </tool>
             </inputs>
         </file>
@@ -503,9 +514,13 @@
             <outputs>
                 <tool>
                     <name>AARM</name>
-                    <file> 95</file>
+                    <file> 97</file>
                 </tool>
             </outputs>
         </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
     </configuration>
 </project>

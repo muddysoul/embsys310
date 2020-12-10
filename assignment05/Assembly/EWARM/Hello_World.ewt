@@ -1284,4 +1284,7 @@
             </file>
         </group>
     </group>
+    <file>
+        <name>$PROJ_DIR$\..\Src\swapCharsAsm.s</name>
+    </file>
 </project>
