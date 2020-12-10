@@ -17,8 +17,6 @@ int main()
   int* xPtr = &x;
   int* yPtr = &y;
   
-  
-  //pause for debugger
   swap_pointer(xPtr, yPtr);
   
   return 0;
