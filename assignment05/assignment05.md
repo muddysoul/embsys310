@@ -16,6 +16,7 @@ c. Invoke the function “PrintString” from within divAsm before doing the div
 d. Add a comment for every statement in your assembly function code.  
 e. Invoke divAsm() inside of your main function in main.c  
 f. Run your program on the board and capture a snapshot image of the output from TeraTerm showing the result of the divAsm.  
+![alt text](https://github.com/muddysoul/embsys310/blob/main/assignment05/Images/div_by_2.png "div by 2")
 
 ### 3. Implement a swap function in assembly and call it “swapCharsAsm”:
 a. It takes as input two variables of char data type each and swaps the two chars.  
