@@ -50,15 +50,19 @@ Parameters      : R0: uint8_t state
 Return value    : None
 *******************************************************************************/  
 
+<<<<<<< HEAD
 // Bitband address calculation formula
 // (0x42000000+(0x2104C *32) + (1*4))) = 0x1;
 
+=======
+>>>>>>> 97b7a41e7e5d1ddbaefb7f27eed45e125dc693d6
 GPIOA_BASE  EQU 0x48000000
 GPIOA_ODR   EQU 0x14
 GPIOA_BIT_5 EQU 0x20
 
 control_user_led1
     // <TODO> Implement function in assembly
+<<<<<<< HEAD
     MOV R2, #GPIOA_BASE
     MOV R3, #GPIOA_BIT_5
     MOV R4, #0x00
@@ -69,5 +73,7 @@ control_user_led1
 on:
     STR R3, R2, #GPIOA_ODR
     BL delay
+=======
+>>>>>>> 97b7a41e7e5d1ddbaefb7f27eed45e125dc693d6
 
     END

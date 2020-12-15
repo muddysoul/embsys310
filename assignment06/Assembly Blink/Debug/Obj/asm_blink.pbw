@@ -3394,13 +3394,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@90@macro@BIT_BAND_BASE",
+    "ID": "c:main.c@104@macro@BIT_BAND_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BIT_BAND_BASE",
     "location": {
       "column": "9",
-      "line": "6",
+      "line": "7",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "BIT_BAND_BASE",
@@ -3408,13 +3408,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@124@macro@BYTE_OFFSET",
+    "ID": "c:main.c@138@macro@BYTE_OFFSET",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "BYTE_OFFSET",
     "location": {
       "column": "9",
-      "line": "7",
+      "line": "8",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "BYTE_OFFSET",
@@ -3422,13 +3422,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@153@macro@RCC_BASE",
+    "ID": "c:main.c@167@macro@RCC_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_BASE",
     "location": {
       "column": "9",
-      "line": "8",
+      "line": "9",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "RCC_BASE",
@@ -3436,13 +3436,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@182@macro@GPIOA_BASE",
+    "ID": "c:main.c@196@macro@GPIOA_BASE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_BASE",
     "location": {
       "column": "9",
-      "line": "9",
+      "line": "10",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "GPIOA_BASE",
@@ -3450,13 +3450,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@215@macro@RCC_AHB2ENR",
+    "ID": "c:main.c@229@macro@RCC_AHB2ENR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_AHB2ENR",
     "location": {
       "column": "9",
-      "line": "11",
+      "line": "12",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "RCC_AHB2ENR",
@@ -3464,13 +3464,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@274@macro@RCC_GPIOA_BB",
+    "ID": "c:main.c@288@macro@RCC_GPIOA_BB",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "RCC_GPIOA_BB",
     "location": {
       "column": "9",
-      "line": "12",
+      "line": "13",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "RCC_GPIOA_BB",
@@ -3478,13 +3478,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@355@macro@GPIOA_MODER",
+    "ID": "c:main.c@369@macro@GPIOA_MODER",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_MODER",
     "location": {
       "column": "9",
-      "line": "13",
+      "line": "14",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "GPIOA_MODER",
@@ -3492,13 +3492,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@415@macro@GPIOA_ODR",
+    "ID": "c:main.c@429@macro@GPIOA_ODR",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA_ODR",
     "location": {
       "column": "9",
-      "line": "14",
+      "line": "15",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "GPIOA_ODR",
@@ -3506,13 +3506,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@478@macro@ORD14",
+    "ID": "c:main.c@945@macro@ORD14",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ORD14",
     "location": {
       "column": "9",
-      "line": "16",
+      "line": "29",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "ORD14",
@@ -3520,13 +3520,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@503@macro@ORD5",
+    "ID": "c:main.c@970@macro@ORD5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "ORD5",
     "location": {
       "column": "9",
-      "line": "17",
+      "line": "30",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "ORD5",
@@ -3534,13 +3534,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@529@macro@LED_ON",
+    "ID": "c:main.c@996@macro@LED_ON",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_ON",
     "location": {
       "column": "9",
-      "line": "19",
+      "line": "32",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "LED_ON",
@@ -3548,13 +3548,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@547@macro@LED_OFF",
+    "ID": "c:main.c@1014@macro@LED_OFF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "LED_OFF",
     "location": {
       "column": "9",
-      "line": "20",
+      "line": "33",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "LED_OFF",
@@ -3562,13 +3562,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@566@macro@DELAY_DURATION",
+    "ID": "c:main.c@1033@macro@DELAY_DURATION",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "DELAY_DURATION",
     "location": {
       "column": "9",
-      "line": "21",
+      "line": "34",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "DELAY_DURATION",
@@ -3582,7 +3582,7 @@
     "display": "void delay(uint32_t)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "36",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "delay",
@@ -3596,7 +3596,7 @@
     "display": "void control_user_led1(uint8_t, uint32_t)",
     "location": {
       "column": "6",
-      "line": "24",
+      "line": "37",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "control_user_led1",
@@ -3610,7 +3610,7 @@
     "display": "void enable_rcc(uint32_t)",
     "location": {
       "column": "6",
-      "line": "25",
+      "line": "38",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "enable_rcc",
@@ -3624,7 +3624,7 @@
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "27",
+      "line": "40",
       "path": "C:\\Users\\maris\\embsys310\\assignment06\\Assembly Blink\\main.c"
     },
     "name": "main",
