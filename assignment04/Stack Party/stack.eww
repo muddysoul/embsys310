@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\..\Queue Demo\Module05_Demo08_Queue\main.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\stack.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>

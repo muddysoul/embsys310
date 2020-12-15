@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspace>
+    <project>
+        <path>$WS_DIR$\cmsis_blink.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\cmsis_testing.ewp</path>
+    </project>
+    <project>
+        <path>$WS_DIR$\..\..\assignment05\Assembly\EWARM\Hello_World.ewp</path>
+    </project>
+    <batchBuild />
+</workspace>
