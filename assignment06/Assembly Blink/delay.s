@@ -46,7 +46,6 @@ Return value    : None
   
 delay
     // <TODO> Implement function in assembly
-<<<<<<< HEAD
     // R1 has the delay time
     CMP R1, #0          // is R1 = 0?
     BEQ endloop         // if R1 = 0 don't need to loop
@@ -55,8 +54,6 @@ loop:
     CMP R1, #0          // is R1 = 0?
     BNE loop            // loop if R1 > 0
 endloop:
-    BX LR               // return (with function result in R0)
-=======
->>>>>>> 97b7a41e7e5d1ddbaefb7f27eed45e125dc693d6
+    BX LR               // return (with function result in R0
 
     END

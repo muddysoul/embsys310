@@ -2110,9 +2110,6 @@
         <name>$PROJ_DIR$\main.c</name>
     </file>
     <file>
-        <name>$PROJ_DIR$\rcc_ctrl.s</name>
-    </file>
-    <file>
         <name>$PROJ_DIR$\user_led.s</name>
     </file>
 </project>

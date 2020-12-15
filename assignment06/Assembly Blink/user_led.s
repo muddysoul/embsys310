@@ -50,30 +50,26 @@ Parameters      : R0: uint8_t state
 Return value    : None
 *******************************************************************************/  
 
-<<<<<<< HEAD
 // Bitband address calculation formula
 // (0x42000000+(0x2104C *32) + (1*4))) = 0x1;
 
-=======
->>>>>>> 97b7a41e7e5d1ddbaefb7f27eed45e125dc693d6
 GPIOA_BASE  EQU 0x48000000
 GPIOA_ODR   EQU 0x14
 GPIOA_BIT_5 EQU 0x20
 
 control_user_led1
     // <TODO> Implement function in assembly
-<<<<<<< HEAD
-    MOV R2, #GPIOA_BASE
-    MOV R3, #GPIOA_BIT_5
-    MOV R4, #0x00
-    CMP R0, #0
-    BEQ on
-    STR R4, R2, #GPIOA_ODR
-    BL delay
-on:
-    STR R3, R2, #GPIOA_ODR
-    BL delay
-=======
->>>>>>> 97b7a41e7e5d1ddbaefb7f27eed45e125dc693d6
+    MOV R2, #GPIOA_BASE         // move the address into a register
+    MOV R3, #GPIOA_BIT_5        // move the bitband reg value into a register
+    MOV R4, #0x00               // put 0 into a register for later use
+    CMP R0, #0                  // if R0 = 0
+    BEQ off                     // branch to set LED off
+    STR R3, R2, #0x14           // otherwise store value to turn on LED
+    BL delay                    // now we wait
+    BX LR                       // and now done
+off:                            // label if state is off
+    STR R4, R2, #0x14           // store 0 in bit-band memory to turn off
+    BL delay                    // wait
+    BX LR                       // done w LED
 
     END
